@@ -11,13 +11,22 @@
       http-equiv="X-Content-Security-Policy"
       content="default-src 'self'; script-src 'self'"
     />
+    <link rel="stylesheet" href="./assets/bootstrap.min.css" />
     <title>Inventa</title>
   </head>
 
-  <body>
-    <h1>Hello from Inventa!</h1>
-    <p>👋</p>
-    <p id="info"></p>
+  <body class="container py-4">
+    <div class="card shadow-sm">
+      <div class="card-body">
+        <h1 class="card-title">Bienvenue sur Inventa 🛒</h1>
+        <p class="card-text">
+          Une gestion de stock simple et intelligente, pensée pour la
+          croissance.
+        </p>
+        <p id="info" class="text-muted small"></p>
+      </div>
+    </div>
   </body>
+  <script src="./assets/bootstrap.bundle.min.js"></script>
   <script src="./renderer.js"></script>
 </html>
