@@ -1,0 +1,22 @@
+# Inventa
+
+**Inventa** est une application de gestion de stock gratuite et open source.  
+Elle est conçue pour offrir une expérience simple, rapide et locale.
+
+> 🛠️ Version MVP – En cours de développement actif.
+
+---
+
+## 🚀 Fonctionnalités
+
+- Ajout, modification et suppression de produits
+- Consultation des quantités de stock en temps réel
+- Sauvegarde locale des données via SQLite
+- Interface utilisateur simple et épurée
+- Développée uniquement en JavaScript
+
+---
+
+## 📦 Licence
+
+Ce projet est distribué sous la licence MIT © Tahar Belhouchat

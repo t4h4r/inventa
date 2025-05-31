@@ -1,0 +1,33 @@
+{
+  "name": "inventa",
+  "productName": "Inventa",
+  "version": "0.1.0-alpha",
+  "description": "Smart inventory management, built for growth.",
+  "license": "MIT",
+  "repository": "t4h4r/inventa",
+  "author": {
+    "name": "Tahar Belhouchat",
+    "email": "t4h4r@proton.me",
+    "url": "https://github.com/t4h4r"
+  },
+  "keywords": [
+    "electron",
+    "nodejs",
+    "app",
+    "inventory",
+    "stock",
+    "management",
+    "electron-app",
+    "inventa"
+  ],
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^36.3.2"
+  },
+  "dependencies": {
+    "@sentry/electron": "^6.6.0"
+  }
+}
